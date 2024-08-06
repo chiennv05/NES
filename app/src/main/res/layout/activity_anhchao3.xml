@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/anhchao3"
+    tools:context=".Login.anhchao.Anhchao3">
+    <TextView
+        android:layout_marginTop="700dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/btnboqua_manhinh3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bỏ qua"
+        android:textColor="#FA9523"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/btntieptuc_manhinh3"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#FA9523"
+        android:text="Tiếp Tục"
+        android:textSize="19dp"
+        android:textStyle="bold"
+         />
+
+
+</LinearLayout>

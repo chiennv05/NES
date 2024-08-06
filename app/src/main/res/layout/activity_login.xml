@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/dangnhapdangky"
+    tools:context=".Login.Login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Đăng nhập"
+        android:textColor="#FA9523"
+        android:layout_marginTop="150dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:text="Tên đăng nhập:"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:id="@+id/edemail_dn"
+        android:layout_width="358dp"
+        android:layout_height="55dp"
+        android:hint="Nhập tên đăng nhập"
+        android:background="@drawable/dangkydangnhap"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:text="Mật khẩu"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:id="@+id/edPass_dn"
+        android:layout_width="358dp"
+        android:layout_height="55dp"
+        android:background="@drawable/dangkydangnhap"
+        android:hint="Nhập mật khẩu"
+
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:id="@+id/btnDangNhap"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FA9523"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hoặc đăng nhập bằng"
+        android:layout_marginBottom="20dp"
+        android:textColor="#959595"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gg"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fb"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chưa có tài khoản?  "
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/btnDangKy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F19252"
+            android:textColor="#FA9523"
+            android:textStyle="bold"
+            android:text="Đăng Ký"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

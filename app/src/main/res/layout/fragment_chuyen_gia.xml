@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+ >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Tạo tài khoản chuyên gia"
+            android:textColor="#FA9523"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="50dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="Tên đăng nhập chuyên gia:"
+            android:layout_marginBottom="5dp"/>
+        <EditText
+            android:id="@+id/edEmail_dk"
+            android:layout_width="358dp"
+            android:layout_height="55dp"
+            android:background="@drawable/dangkydangnhap"
+            android:hint="Nhập tên đăng nhập"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="Mật khẩu:"
+            android:layout_marginBottom="5dp"/>
+        <EditText
+            android:id="@+id/edPass_dk"
+            android:layout_width="358dp"
+            android:layout_height="55dp"
+            android:hint="Nhập mật khẩu "
+
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="@drawable/dangkydangnhap"
+            android:textSize="16dp"
+            android:inputType="textPassword"
+            />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="Mật khẩu nhập lại:"
+            android:layout_marginBottom="5dp"/>
+        <EditText
+            android:id="@+id/edConfilm_dk"
+            android:layout_width="358dp"
+            android:layout_height="55dp"
+            android:hint="Mật khẩu nhập lại"
+
+            android:padding="10dp"
+            android:background="@drawable/dangkydangnhap"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:inputType="textPassword"
+            android:layout_marginBottom="30dp"
+            />
+
+        <Button
+            android:id="@+id/btnDangKyChuyenGia"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:text="Đăng ký"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FA9523"
+            android:textSize="20dp"
+            android:layout_marginBottom="20dp"
+            />
+
+
+
+    </LinearLayout>

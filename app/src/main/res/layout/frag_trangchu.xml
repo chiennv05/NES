@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Header Section -->
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/headerImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/imgtron"
+            android:scaleType="centerCrop"
+
+            android:layout_marginEnd="16dp" />
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chào bạn!"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FA9523"
+            android:layout_marginRight="100dp"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logocon"
+            />
+    </LinearLayout>
+
+    <!-- Notification Section -->
+    <TextView
+        android:id="@+id/notification_gratitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/mautrangchu"
+        android:text="Đã đến lúc viết lời biết ơn"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/notification_running"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Thời gian chạy bộ hôm nay"
+        android:textSize="18sp"
+        android:background="@drawable/mautrangchu"
+        android:padding="8dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/notification_meditation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mautrangchu"
+        android:gravity="center"
+        android:text="Thời gian thiền hôm nay"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white" />
+
+
+
+    <TextView
+        android:id="@+id/notification_sleep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mautrangchu"
+        android:gravity="center"
+        android:text="Kiểm tra giấc ngủ của bạn"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white" />
+
+    <!-- Additional Content -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mỗi bước chân bạn chạy đều đưa bạn gần hơn đến mục tiêu của mình. Đừng quên rằng mỗi giọt mồ hôi là sự đầu tư cho sức khỏe và sự kiên trì của bạn. Hãy tiếp tục và bạn sẽ cảm nhận được sức mạnh từ chính mình!"
+        android:textSize="16sp"
+        android:padding="16dp"
+
+        android:background="@drawable/mautrangchu"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp" />
+</LinearLayout>

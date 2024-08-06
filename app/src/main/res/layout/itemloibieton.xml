@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:id="@+id/txngayviet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="20/07/2023"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:padding="20dp"
+        android:background="@drawable/maumenu"
+        android:id="@+id/txloibieton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

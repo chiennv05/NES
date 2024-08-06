@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Thiền Định"
+        android:textColor="#FA9523"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/tvMeditationTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="00:00:00"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/btnStopMeditation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Meditation"
+        android:backgroundTint="#FA9523"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMeditationTimes"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+
+        android:layout_marginTop="16dp"/>
+
+    <!-- LinearLayout chứa ảnh được điều chỉnh để nằm ở dưới cùng -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+      >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mantrongthien"
+            android:layout_marginBottom="5dp"/>
+
+        <ImageView
+            android:id="@+id/btnStartMeditation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/addthien"/>
+    </LinearLayout>
+
+</LinearLayout>

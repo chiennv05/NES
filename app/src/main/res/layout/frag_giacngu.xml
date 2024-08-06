@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thiết Lập Giấc Ngủ"
+        android:gravity="center"
+        android:textColor="#FA9523"
+        android:textSize="40dp"
+        android:textStyle="bold"
+
+        android:layout_marginBottom="40dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+
+        android:src="@drawable/bieudogiacngu"
+        android:layout_marginBottom="16dp"/>
+
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:id="@+id/txgiongu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giờ ngủ: Chưa thiết lập: "
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+<!--    <TextView-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:id="@+id/wakeTimeTextView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Giờ dậy: Chưa thiết lập: "-->
+<!--        android:textSize="18sp"-->
+<!--        android:layout_marginBottom="16dp"/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnSetSleepTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FA9523"
+            android:text="Đi ngủ"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/maumenu"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cân nặng: "/>
+
+    <TextView
+        android:id="@+id/txtHeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chiều cao: "/>
+
+    <TextView
+        android:id="@+id/txtBMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI: "/>
+
+    <TextView
+        android:id="@+id/txtBMICategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loại béo: "/>
+
+    <TextView
+        android:id="@+id/txtDietRecommendations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bạn nên ăn: "/>
+</LinearLayout>

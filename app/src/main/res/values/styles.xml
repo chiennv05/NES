@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="IconColor">
+        <item name="android:tint">#FA9523</item>
+        <item name="android:iconTint">@color/white</item>
+    </style>
+</resources>

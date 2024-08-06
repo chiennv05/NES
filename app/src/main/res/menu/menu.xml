@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--    <item android:id="@+id/nav_trangchu"-->
+    <!--        android:title="Trang Chủ"/>-->
+    <item android:title="Sức khỏe và tinh thần">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item android:id="@+id/nav_trangchu"
+                    android:icon="@drawable/trangchu"
+                    android:title="Trang Chủ"/>
+
+                <item android:id="@+id/nav_loibieton"
+                    android:icon="@drawable/baion"
+                    android:iconTint="@style/IconColor"
+                    android:title="Viết điều biết ơn" />
+
+                <item android:id="@+id/nav_hoatdong"
+                    android:icon="@drawable/hoatdongchay"
+                    android:title="Chạy"/>
+
+                <item android:id="@+id/nav_thien"
+                    android:icon="@drawable/thiennnnn"
+                    android:title="Thiền âm nhạc"/>
+
+                <item android:id="@+id/nav_tuvan"
+                    android:icon="@drawable/tuvann"
+
+                    android:title="Tư vấn tâm Lý"
+                    android:visible="false"/>
+
+                <item android:id="@+id/nav_phanhoi"
+                    android:icon="@drawable/tuvann"
+                    android:title="Phản hồi tư vấn"
+                    android:visible="false"/>
+
+                <item android:id="@+id/nav_themCG"
+                    android:title="Thêm Chuyên Gia"
+                    android:icon="@drawable/addban"
+                    android:visible="false"/>
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Cá Nhân">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/nav_suckhoeanuong"
+                    android:icon="@drawable/anuong"
+                    android:title="Chỉ số BMI"/>
+
+                <item android:id="@+id/nav_giacngu"
+                    android:icon="@drawable/nguuuu"
+                    android:title="Quản lý giấc ngủ"/>
+
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Tài Khoản">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/nav_taikhoan"
+                    android:icon="@drawable/taikhoanadd"
+                    android:title="Tài Khoản"/>
+<!--                <item android:id="@+id/nav_ketban"-->
+<!--                    android:icon="@drawable/addban"-->
+<!--                    android:title="Kết Bạn"/>-->
+                <item android:id="@+id/nav_dangxuat"
+                    android:icon="@drawable/dangxuatttt"
+                    android:title="Đăng Xuất"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

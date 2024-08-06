@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/headerImage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/imgtron"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="300dp"
+            android:layout_gravity="center_horizontal"
+            />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/logocon"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="THIỀN ĐỊNH"
+            android:textSize="48dp"
+            android:textColor="#FA9523"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:text="GIẢI PHÓNG CĂNG THẲNG, ĐÓN NHẬN BÌNH AN"
+            android:textSize="24dp"
+            android:textColor="#FA9523"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="vertical"
+        android:gravity="end">
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="470dp"
+            android:src="@drawable/batdauthien" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btnaddthien_dinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/addthien"
+        />
+
+
+
+</LinearLayout>
